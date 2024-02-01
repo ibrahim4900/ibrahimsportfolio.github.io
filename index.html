@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ibrahim's portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ibrahim Iqbal">
+    <!-- Add other meta tags here -->
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="fonts/fonts.css">
+    <link rel="stylesheet" type="text/css" href="css/vendor.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+    </style>
+    <!-- Add your responsive CSS here -->
+    <script type="module" src="http://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="http://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+
+
+<body>
+    <!-- Your existing HTML content -->
+
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+
+
+</html>
+
+<body>
+    <div id="overlayer">
+        <span class="loader">
+            <span class="loader-inner"></span>
+        </span>
+    </div>
+
+    <div class="nav nav-overlay">
+        <div class="nav__content">
+            <ul class="nav__list">
+                <li class="nav__list-item active-nav"><a href="index.html" class="hover-target">Home</a></li>
+                <li class="nav__list-item"><a href="Projects.html" class="hover-target">My Work</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <header id="header">
+        <div class="header-wrap" data-aos="fade">
+            <div class="main-logo">
+                <a href="Projects.html">Ibrahim Iqbal</a>
+            </div><!--main-logo-->
+            <br>
+            <div class="social-icons-container"> <!-- Added container for social icons -->
+                <a href="https://www.linkedin.com/in/ibrahim4900/" class="social-icon"><ion-icon name="logo-linkedin" style="color: white;"></ion-icon></a>
+                <a href="https://github.com/ibrahim4900" class="social-icon"><ion-icon name="logo-github" style="color: white;"></ion-icon></a>
+                <a href="mailto:ibrahim.iqbal490@gmail.com" class="social-icon"><ion-icon name="mail-outline" style="color: white;"></ion-icon></a>
+                <a href="tel:929-507-9547" class="social-icon"><ion-icon name="call-outline" style="color: white;"></ion-icon></a>
+            </div>
+
+            <nav id="navbar">
+                <input id="menu-toggle" type="checkbox" />
+                <label class="menu-btn" for="menu-toggle">
+                    <span></span>
+                </label>
+            </nav>
+        </div><!--header-wrap-->
+    </header>
+
+    <div id="billboard" class="jarallax" data-aos="fade">
+        <div class="banner-content">
+            <div class="banner-header">
+                <h2 class="cube-text">Email Developer/Email Marketing Specialist</h2>
+                <div class="button">
+                    <button style="background-color: lavender;"><a href="Ibrahim_Iqbal_Main_Resume.pdf"
+                            target="_blank" class="resume">View My Resume</a></button>
+                </div>
+                <h5 style="color: aliceblue;">Hi, I love building HTML Emails, Websites, & everything marketing.</h5>
+                <button style="background-color: #C4A484;" onclick="scrollToFooter();">Learn more about me &#8595;</button>
+                <script type="text/javascript">
+                    function scrollToFooter() {
+                        const footer = document.getElementById("footer");
+                        if (footer) {
+                            const footerPosition = footer.getBoundingClientRect().top + window.pageYOffset;
+                            window.scrollTo({
+                                top: footerPosition,
+                                behavior: 'smooth'
+                            });
+                        }
+                    }
+                </script>
+                <div id="otherElement"></div>
+                <a href="aboutme"></a>
+            </div>
+        </div>
+
+        <img src="IMG_2316-2.jpeg" class="jarallax-img">
+    </div>
+
+    <section id="about-me" class="margin-large">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-6">
+                        <a href="Ibrahim_Iqbal_Resume-2.pdf" download="" class="button primary d-flex justify-content-center"><i
+                                class="pw-icon-doc-alt"></i>Download CV</a>
+                    </div>
+                    <h2 style="color: black">SKILLS</h2>
+                    <div class="col-md-6">
+                        <div class="skill-chart">
+                            <ul class="skill-chart-list">
+                                <li>
+                                    <div class="skill-title">HTML & CSS</div>
+                                    <span class="skill onehundred-percent"></span>
+                                </li>
+                                <li>
+                                    <div class="skill-title">Multiple ESP'S: Salesforce Marketing Cloud, IBM Watson campaign
+                                        automation/SilverPop, Mailchimp, EveryAction/NGP VAN, Luminate, Oracle Responsys</div>
+                                    <span class="skill onehundred-percent"></span>
+                                </li>
+                                <li>
+                                    <div class="skill-title">SALESFORCE MARKETING CLOUD: AMPSCRIPT, SQL, JOURNEY BUILDER/CUSTOM JOURNEY, EMAIL STUDIO/CONTENT BUILDER, A/B SPLIT TESTING, DRAG & DROP CONTENT BLOCKS, AND REPORTING & ANALYTICS
+                                    </div>
+                                    <span class="skill onehundred-percent"></span>
+                                </li>
+                                <li>
+                                    <div class="skill-title">ReactJS & Node.Js, JQuery</div>
+                                    <span class="skill eighty-percent"></span>
+                                </li>
+                                <li>
+                                    <div class="skill-title">Email Quality Assurance & Email Design</div>
+                                    <span class="skill onehundred-percent"></span>
+                                </li>
+                                <li>
+                                    <div class="skill-title">Photoshop, Illustrator, Dreamweaver, lightroom, indesign, sketch</div>
+                                    <span class="skill onehundred-percent"></span>
+                                </li>
+                                <li>
+                                    <div class="skill-title">Copywriting</div>
+                                    <span class="skill onehundred-percent"></span>
+                                </li>
+                                <li>
+                                    <div class="skill-title">Project Management: Confluence, Jira</div>
+                                    <span class="skill onehundred-percent"></span>
+                                </li>
+                                <li>
+                                    <div class="skill-title">Email Marketing/Email Reporting</div>
+                                    <span class="skill onehundred-percent"></span>
+                                </li>
+                                <li>
+                                    <div class="skill-title">Email On Acid & Litmus</div>
+                                    <span class="skill onehundred-percent"></span>
+                                </li>
+                                <li>
+                                    <div class="skill-title">Google analytics</div>
+                                    <span class="skill onehundred-percent"></span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="section-header align-center">
+                    <div class="title"><span>My EMAILS</span></div>
+                    <h2 class="section-title">HTML EMAILS</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <figure data-aos="fade-zoom-in" data-aos-delay="0" class="portfolio-item">
+                        <a href="Image 11-22-23 at 5.54 AM.jpeg" class="image-link"><img
+                                src="Image 11-22-23 at 5.54 AM.jpeg" class="portfolio-image large-image"></a>
+                        <figcaption class="portfolio-title">
+                            <a href="https://ibrahim4900.github.io/helpsanad.github.io/">Unicef: Help more kids like Sanad</a>
+                        </figcaption>
+                    </figure>
+                    <figure data-aos="fade-zoom-in" data-aos-delay="0" class="portfolio-item">
+                        <a href="images/Image 10-21-23 at 3.48 AM.jpeg" class="image-link"><img
+                                src="images/Image 10-21-23 at 3.48 AM.jpeg" class="portfolio-image large-image"></a>
+                        <figcaption class="portfolio-title">
+                            <a href="https://ibrahim4900.github.io/habitatforhumanity-Alex-in-honor-of-World-Habitat-Day/">Habitat
+                                for Humanity Email</a>
+                        </figcaption>
+                    </figure>
+                    <figure data-aos="fade-zoom-in" data-aos-delay="300" class="portfolio-item">
+                        <a href="images/Screen Shot 2023-10-19 at 10.12.19 PM.jpeg" class="image-link"><img
+                                src="images/Screen Shot 2023-10-19 at 10.12.19 PM.jpeg" class="portfolio-image medium-image"></a>
+                        <figcaption class="portfolio-title">
+                            <a href="https://ibrahim4900.github.io/unicefseptnewsire.github.io./">Unicef
+                                September Newswire Email</a>
+                        </figcaption>
+                    </figure>
+                    <figure data-aos="fade-zoom-in" data-aos-delay="300" class="portfolio-item">
+                        <a href="images/Image 10-24-23 at 5.57 PM.jpeg" class="image-link"><img
+                                src="images/Image 10-24-23 at 5.57 PM.jpeg" class="portfolio-image medium-image"></a>
+                        <figcaption class="portfolio-title">
+                            <a href="https://ibrahim4900.github.io/unicefemergenciesnotintheheadlines.github.io/">Unicef
+                                Emergencies that need your attention</a>
+                        </figcaption>
+                    </figure>
+                    <figure data-aos="fade-zoom-in" data-aos-delay="300" class="portfolio-item">
+                        <a href="images/Image 10-24-23 at 5.52 PM.jpeg" class="image-link"><img
+                                src="images/Image 10-24-23 at 5.52 PM.jpeg" class="portfolio-image medium-image"></a>
+                        <figcaption class="portfolio-title">
+                            <a href="https://ibrahim4900.github.io/unicefjasmine8yearold.github.io/">Unicef Mission Unstoppable</a>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-md-6">
+                    <figure data-aos="fade-zoom-in" data-aos-delay="300" class="portfolio-item">
+                        <a href="images/bsd_uusa_2023_Why-Im-An-Ambassador_tlp01-Static.jpeg" class="image-link"><img
+                                src="images/bsd_uusa_2023_Why-Im-An-Ambassador_tlp01-Static.jpeg"
+                                class="portfolio-image small-image"></a>
+                        <figcaption class="portfolio-title">
+                            <a href="https://ibrahim4900.github.io/unicefambassadorhernandez.github.io/">Unicef Ambassador Laurie Hernandez</a>
+                        </figcaption>
+                    </figure>
+                    <figure data-aos="fade-zoom-in" data-aos-delay="0" class="portfolio-item">
+                        <a href="images/Image 10-22-23 at 4.50 PM.jpeg" class="image-link"><img
+                                src="images/Image 10-22-23 at 4.50 PM.jpeg" class="portfolio-image medium-image"></a>
+                        <figcaption class="portfolio-title">
+                            <a href="https://ibrahim4900.github.io/unicefgazahelpemail.github.io./">Unicef
+                                help Gaza Email</a>
+                        </figcaption>
+                    </figure>
+                    <figure data-aos="fade-zoom-in" data-aos-delay="0" class="portfolio-item">
+                        <a href="images/Image 10-21-23 at 3.16 PM (1).jpeg" class="image-link"><img
+                                src="images/Image 10-21-23 at 3.16 PM (1).jpeg" class="portfolio-image medium-image"></a>
+                        <figcaption class="portfolio-title">
+                            <a href="https://ibrahim4900.github.io/uniceflibyafloodmass.github.io./">Unicef
+                                Libya Flood Email</a>
+                        </figcaption>
+                    </figure>
+                    <figure data-aos="fade-zoom-in" data-aos-delay="0" class="portfolio-item">
+                        <a href="images/Image 10-22-23 at 5.27 PM.jpeg" class="image-link"><img
+                                src="images/Image 10-22-23 at 5.27 PM.jpeg" class="portfolio-image medium-image"></a>
+                        <figcaption class="portfolio-title">
+                            <a href="https://github.com/ibrahim4900/habitatforhumanitylastdayemail.github.io./blob/main/index.html">Habitat
+                                for Humanity Last Day Email</a>
+                        </figcaption>
+                    </figure>
+                    <figure data-aos="fade-zoom-in" data-aos-delay="0" class="portfolio-item">
+                        <a href="images/Image 10-24-23 at 6.01 PM.jpeg" class="image-link"><img
+                                src="images/Image 10-24-23 at 6.01 PM.jpeg" class="portfolio-image medium-image"></a>
+                        <figcaption class="portfolio-title">
+                            <a href="https://ibrahim4900.github.io/unicefhelpukraine/">Unicef Help Ukraine Email</a>
+                        </figcaption>
+                    </figure>
+                </div>
+                <figure data-aos="fade-zoom-in" data-aos-delay="0" class="portfolio-item">
+                    <a href="images/Image 10-22-23 at 11.34 PM.jpeg" class="image-link"><img
+                            src="images/Image 10-22-23 at 11.34 PM.jpeg" class="portfolio-image medium-image"></a>
+                    <figcaption class="portfolio-title">
+                        <a href="https://ibrahim4900.github.io/unicefmoroccoemergency.github.io./">Morocco Earthquake Emergency Email</a>
+                    </figcaption>
+                </figure>
+                </div>
+                <!-- Add one more section below -->
+                <div class="col-md-6">
+                    <figure data-aos="fade-zoom-in" data-aos-delay="0" class="portfolio-item">
+                        <a href="images/Image 10-26-23 at 1.00 AM.jpeg" class="image-link"><img
+                                src="images/Image 10-26-23 at 1.00 AM.jpeg" class="portfolio-image medium-image"></a>
+                        <figcaption class="portfolio-title">
+                            <a href="https://ibrahim4900.github.io/unicefheatwave/">Unicef Heatwave Help Email</a>
+                        </figcaption>
+                    </figure>
+                    
+                    <figure data-aos="fade-zoom-in" data-aos-delay="0" class="portfolio-item">
+                        <a href="images/Image 10-22-23 at 9.32 PM.jpeg" class="image-link"><img
+                                src="images/Image 10-22-23 at 9.32 PM.jpeg" class="portfolio-image medium-image"></a>
+                        <figcaption class="portfolio-title">
+                            <a href="https://github.com/ibrahim4900/unicefpreparingforemergencysudan.github.io.">Unicef Emergency Sudan</a>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <figure data-aos="fade-zoom-in" data-aos-delay="0" class="portfolio-item">
+                        <a href="images/Image 10-21-23 at 3.00 PM.jpeg" class="image-link"><img
+                                src="images/Image 10-21-23 at 3.00 PM.jpeg" class="portfolio-image large-image"></a>
+                        <figcaption class="portfolio-title">
+                            <a href="https://github.com/ibrahim4900/Unicefaugustnewsire.github.io./blob/main/index.html">Unicef August Newswire</a>
+                        </figcaption>
+                    </figure>
+                    <figure data-aos="fade-zoom-in" data-aos-delay="0" class="portfolio-item">
+                        <a href="images/Image 10-23-23 at 1.08 AM.jpeg" class="image-link"><img
+                                src="images/Image 10-23-23 at 1.08 AM.jpeg" class="portfolio-image large-image"></a>
+                        <figcaption class="portfolio-title">
+                            <a href="https://github.com/ibrahim4900/unicefinternationalyouthesday.github.io./blob/main/index.html">Unicef International Youth Day!</a>
+                        </figcaption>
+                    </figure>
+                    <figure data-aos="fade-zoom-in" data-aos-delay="0" class="portfolio-item">
+                        <a href="images/Image 10-23-23 at 1.56 AM.jpeg" class="image-link"><img
+                                src="images/Image 10-23-23 at 1.56 AM.jpeg" class="portfolio-image large-image"></a>
+                        <figcaption class="portfolio-title">
+                            <a href="https://github.com/ibrahim4900/uniceftoilet.github.io./blob/main/index.html">Unicef Find The Toilet Email</a>
+                        </figcaption>
+                    </figure>
+                    <figure data-aos="fade-zoom-in" data-aos-delay="0" class="portfolio-item">
+                        <a href="images/Image 10-23-23 at 2.11 AM.jpeg" class="image-link"><img
+                                src="images/Image 10-23-23 at 2.11 AM.jpeg" class="portfolio-image large-image"></a>
+                        <figcaption class="portfolio-title">
+                            <a href="https://github.com/ibrahim4900/libyamorrocco.github.io./blob/main/index.html">Libya - Morrocco Emergency Aid Email</a>
+                        </figcaption>
+                    </figure>
+                    <figure data-aos="fade-zoom-in" data-aos-delay="300" class="portfolio-item">
+                        <a href="images/Image 10-22-23 at 9.19 PM.jpeg" class="image-link"><img
+                                src="images/Image 10-22-23 at 9.19 PM.jpeg" class="portfolio-image medium-image"></a>
+                        <figcaption class="portfolio-title">
+                            <a href="https://github.com/ibrahim4900/fairfightmassvotergeorgia.github.io./blob/main/index.html">Fair Fight Mass Voter challenges</a>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-md-6">
+                    <figure data-aos="fade-zoom-in" data-aos-delay="300" class="portfolio-item">
+                        <a href="images/Image 10-22-23 at 11.45 PM.jpeg" class="image-link"><img
+                                src="images/Image 10-22-23 at 11.45 PM.jpeg" class="portfolio-image small-image"></a>
+                        <figcaption class="portfolio-title">
+                            <a href="https://github.com/ibrahim4900/fairfightpollingupdate.github.io./blob/main/index.html">Fair Fight Polling Updates</a>
+                        </figcaption>
+                    </figure>
+                    <figure data-aos="fade-zoom-in" data-aos-delay="0" class="portfolio-item">
+                        <a href="images/Image 10-22-23 at 9.22 PM.jpeg" class="image-link"><img
+                                src="images/Image 10-22-23 at 9.22 PM.jpeg" class="portfolio-image medium-image"></a>
+                        <figcaption class="portfolio-title">
+                            <a href="https://github.com/ibrahim4900/fairfightbacktoschool1.github.io.">Fair Fight Back to school</a>
+                        </figcaption>
+                    </figure>
+                    <figure data-aos="fade-zoom-in" data-aos-delay="0" class="portfolio-item">
+                        <a href="images/Image 10-23-23 at 12.52 AM.jpeg" class="image-link"><img
+                                src="images/Image 10-23-23 at 12.52 AM.jpeg" class="portfolio-image medium-image"></a>
+                        <figcaption class="portfolio-title">
+                            <a href="https://github.com/ibrahim4900/fairifightvotersurvey2.github.io./blob/main/index.html">Fair Fight Voter Survey</a>
+                        </figcaption>
+                    </figure>
+                    <figure data-aos="fade-zoom-in" data-aos-delay="0" class="portfolio-item">
+                        <a href="images/Image 10-23-23 at 1.49 AM.jpeg" class="image-link"><img
+                                src="images/Image 10-23-23 at 1.49 AM.jpeg" class="portfolio-image large-image"></a>
+                        <figcaption class="portfolio-title">
+                            <a href= "https://github.com/ibrahim4900/fairfighttruethevote2.github.io./blob/main/index.html">Fair Fight True The Vote email #2</a>
+                        </figcaption>
+                    </figure>
+                    <figure data-aos="fade-zoom-in" data-aos-delay="300" class="portfolio-item">
+                        <a href="images/Image 10-23-23 at 1.33 AM.jpeg" class="image-link"><img
+                                src="images/Image 10-23-23 at 1.33 AM.jpeg" class="portfolio-image medium-image"></a>
+                        <figcaption class="portfolio-title">
+                            <a href="https://github.com/ibrahim4900/unicefchildrenwithdisabilties.github.io./blob/main/index.html">Unicef Helping Children with disabilities email</a>
+                        </figcaption>
+                    </figure>
+                    <figure data-aos="fade-zoom-in" data-aos-delay="300" class="portfolio-item">
+                        <a href="images/Image 10-23-23 at 2.14 AM.jpeg" class="image-link"><img
+                                src="images/Image 10-23-23 at 2.14 AM.jpeg" class="portfolio-image medium-image"></a>
+                        <figcaption class="portfolio-title">
+                            <a href="https://github.com/ibrahim4900/unicefsleadershipcirclemembership.github.io./blob/main/index.html">Unicef's Leadership Circle Membership</a>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+<footer id="footer" class="padding-xlarge">
+    <div class="container">
+        <div class="row">
+            <div class="footer-menu col-md-4">
+                <div class="footer-intro">
+                    <h1><mark style="font-family: 'Montserrat', sans-serif; font-weight: bold; text-decoration: underline;">ABOUT ME</mark></h1>
+                    <p style="font-family: 'Montserrat', sans-serif; font-weight: bold;">
+                        <mark style="font-family: 'Montserrat', sans-serif; font-weight: bold;">I am a highly experienced professional who excels in executing major email and cross-channel marketing programs from inception to completion. I have a strong background in production, particularly in building and quality assurance (QA) of emails, utilizing platforms like Salesforce Marketing Cloud, EveryAction/NGP VAN, and Luminate. My portfolio includes working with renowned clients such as IBM, Liberty Mutual, UNICEF, Fair Fight, and Habitat for Humanity.</mark>
+                    </p>
+
+                    <p style="font-family: 'Montserrat', sans-serif; font-weight: bold;">
+                        <mark style="font-family: 'Montserrat', sans-serif; font-weight: bold;">I collaborate closely with a multidisciplinary team, including designers, analysts, and paid media planners, to build and target audiences, conduct A/B testing, and optimize campaigns. My mastery of these platforms allows me to effectively map campaign strategies onto technology, providing valuable guidance on leveraging tools and overcoming technical challenges.</mark>
+                    </p>
+
+                    <p style="font-family: 'Montserrat', sans-serif; font-weight: bold;">
+                        <mark style="font-family: 'Montserrat', sans-serif; font-weight: bold;">Remaining up-to-date with the latest digital trends is a key part of my skill set. I formulate informed perspectives on how clients can harness these trends to propel their programs forward. Additionally, I take care of email reporting and weekly analytics for clients, ensuring they receive actionable insights from their campaigns.</mark>
+                    </p>
+                    <br>
+
+                    <p style="font-family: 'Montserrat', sans-serif; font-weight: bold;">
+                        <mark style="font-family: 'Montserrat', sans-serif; font-weight: bold;">Beyond my professional expertise, my journey to becoming an email developer has a deeply personal dimension. I battled depression, and my role as an email developer became a lifeline that helped me regain my purpose. I've also embarked on a side project: starting a mental health podcast tailored for men. This venture is a testament to my resilience and commitment to supporting others facing similar challenges.</mark>
+                    </p>
+                        <ul>
+                            <br><br><mark style="font-family: 'Impact', 'Haettenschweiler', 'Arial Narrow Bold', sans-serif; font-size: 24px;">Interesting Facts About Me</mark>
+<br><br>
+
+                            <li>I love cooking & Baking</li>
+                            <li>I love traveling & hiking</li>
+                            <li>I have read 3 books this month</li>
+                            <li>In the process of making my own podcast</li>
+                            <li>Loves going to the gym & boxing</li>
+                            <li>Currently watching House of the Dragon & Succession</li>
+                            <li>Constantly learning & testing out skills in every aspect of life.</li>
+                        </ul>
+                    </div>
+                    <div class="footer-menu col-md-4">
+                        <div class="footer-address">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="footer-bottom" class="padding-medium no-padding-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="socila-links">
+                        <ul>
+                            <li><a href="https://www.linkedin.com/in/ibrahim4900/"><ion-icon
+                                        name="logo-linkedin"></ion-icon></a>
+                            <li><a href="https://github.com/ibrahim4900"><ion-icon name="logo-github"></ion-icon></a></li>
+                            <li><a href="https://www.instagram.com/ib_codes/"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                            <li><a href="mailto:ibrahim.iqbal490@gmail.com"><ion-icon name="mail-outline"></ion-icon></a></li>
+                            <li><a href="tel:929-507-9547"><ion-icon name="call-outline"></ion-icon></a></li>
+                        </ul>
+                        <p class="paragraph"
+                            style="margin: 1em 0; font-family: 'Open Sans', Arial, sans-serif; font-weight: 900; color: #444444; line-height: 1.3; font-size: 11px;">©
+                            Copyright Ibrahim Iqbal 2023 - All Rights Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
+
